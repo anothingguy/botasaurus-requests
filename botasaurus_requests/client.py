@@ -329,7 +329,7 @@ class TLSClient:
         # Data has priority. JSON is only used if data is None.
         if data is None and json is not None:
             if type(json) in (dict, list):
-                json = dumps(json).decode('utf-8')
+                json = dumps(json)
             request_body = json
             content_type = 'application/json'
         elif data is not None and type(data) not in (str, bytes):
