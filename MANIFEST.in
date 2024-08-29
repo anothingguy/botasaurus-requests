@@ -1,2 +1,2 @@
 exclude bridge
-include bin/*
+recursive-include bin/*
