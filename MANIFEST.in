@@ -1,1 +1,2 @@
 exclude bridge
+include bin/*
