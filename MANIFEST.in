@@ -1,2 +1,2 @@
 exclude bridge
-recursive-include bin *
+recursive-include botasaurus_requests/bin *
